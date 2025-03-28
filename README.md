@@ -1,12 +1,16 @@
-# React + Vite
+# AI-Powered Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an interactive and user-friendly resume builder powered by the **Gemini API**. It features AI assistance for resume generation, real-time data synchronization, and a sleek UI built with **Vite + React**.
 
-Currently, two official plugins are available:
+## Features:
+- 📝 **AI Chatbot Integration** – Get AI-powered assistance while creating your resume.
+- 🔄 **Continuous Sync** – Auto-save your progress for seamless editing.
+- 📄 **Download as PDF** – Export your resume in an ATS-friendly PDF format.
+- 🎨 **Interactive Layout** – Clean and modern UI for easy navigation.
+- 🚀 **Hosted on Vercel** – Fast and reliable deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/resume-builder.git
+   cd resume-builder
