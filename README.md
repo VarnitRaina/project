@@ -26,7 +26,7 @@ This is an interactive and user-friendly resume builder powered by the **Gemini 
 
 ## Deployment:
 ### Step 4: Deploy on Vercel
-- The project is deployed using **Vercel**. You can visit it [here](your-vercel-link).
+- The project is deployed using **Vercel**. You can visit it [here](https://project-mie6oefk0-varnitrainas-projects.vercel.app).
 
 ## Contributing:
 ### Step 5: Contribute to the project
@@ -35,4 +35,3 @@ Feel free to fork this repo, submit pull requests, and contribute to the project
 ---
 
 **Made with ❤️ using React, Vite, and Gemini API.**
-
