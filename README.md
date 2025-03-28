@@ -10,7 +10,29 @@ This is an interactive and user-friendly resume builder powered by the **Gemini 
 - 🚀 **Hosted on Vercel** – Fast and reliable deployment.
 
 ## Installation:
-1. Clone the repository:
+### Step 1: Clone the repository
    ```bash
    git clone https://github.com/your-username/resume-builder.git
    cd resume-builder
+   ```
+### Step 2: Install dependencies
+   ```bash
+   npm install
+   ```
+### Step 3: Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## Deployment:
+### Step 4: Deploy on Vercel
+- The project is deployed using **Vercel**. You can visit it [here](your-vercel-link).
+
+## Contributing:
+### Step 5: Contribute to the project
+Feel free to fork this repo, submit pull requests, and contribute to the project.
+
+---
+
+**Made with ❤️ using React, Vite, and Gemini API.**
+
