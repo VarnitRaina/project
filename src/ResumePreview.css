@@ -1,0 +1,103 @@
+/* ResumePreview.css */
+.resume-preview {
+  width: 210mm; /* Standard A4 width */
+  min-height: 297mm; /* Standard A4 height */
+  margin: 0 auto;
+  padding: 20mm;
+  background-color: white;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-preview header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+}
+
+.resume-preview h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.resume-preview header p {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.resume-preview h2 {
+  font-size: 20px;
+  color: #3498db;
+  margin: 15px 0 10px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.resume-preview p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0;
+  white-space: pre-line;
+}
+
+.resume-preview ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-preview li {
+  margin: 10px 0;
+}
+
+.resume-preview a {
+  color: #3498db;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.resume-preview a:hover {
+  text-decoration: underline;
+}
+
+.page-break-space {
+  height: 20px;
+}
+
+.button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #2980b9;
+}
+
+/* Print-specific styles */
+@media print {
+  .resume-preview {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .button {
+    display: none;
+  }
+}

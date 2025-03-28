@@ -1,0 +1,112 @@
+/* ResumeForm.css */
+  
+.resume-form-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  width: 800px;
+  margin: 20px 20px 20px 50px; /* top right bottom left */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  float: left; /* Ensures it stays left */
+
+}
+
+.resume-form-container h1 {
+  color: #2c3e50;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resume-form-container h2 {
+  color: #34495e;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section h3 {
+  color: #2c3e50;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.download-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 850px) {
+  .resume-form-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-form-container h1 {
+    font-size: 24px;
+  }
+  
+  .resume-form-container h2 {
+    font-size: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 12px;
+  }
+}
